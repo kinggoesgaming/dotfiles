@@ -44,7 +44,7 @@ parents = true
 
 [editor.indent-guides]
 render = true
-character = "⸽" 
+character = "⸽"
 skip-levels = 1
 
 [editor.lsp]
@@ -73,8 +73,8 @@ left = [
   "total-line-numbers"
 ]
 right = [
-  "diagnostics", 
-  "selections", 
+  "diagnostics",
+  "selections",
   "file-encoding",
   "version-control"
 ]
