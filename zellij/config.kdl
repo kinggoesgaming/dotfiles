@@ -6,3 +6,5 @@ keybinds {
 		unbind "Ctrl g"
 	}
 }
+
+theme "catppuccin-macchiato"
