@@ -1,0 +1,96 @@
+theme = "pop-dark"
+
+[editor]
+auto-completion = true
+auto-format = true
+auto-info = true
+auto-save = true
+bufferline = "never"
+color-modes = true
+completion-trigger-len = 2
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+idle-timeout = 400
+line-number = "relative"
+middle-click-paste = false
+mouse = false
+text-width = 80
+true-color = true
+undercurl = true
+
+[editor.auto-pairs]
+"(" = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+'|' = '|'
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+deduplicate-links = true
+follow-symlinks = true
+git-exclude = true
+git-global = true
+git-ignore = true
+hidden = true
+ignore = true
+# max-depth = 1
+parents = true
+
+[editor.indent-guides]
+render = true
+character = "⸽" 
+skip-levels = 1
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = false
+display-signature-help-docs = true
+enable = true
+goto-reference-include-declaration = true
+snippets = true
+
+[editor.search]
+smart-case = true
+wrap-around = true
+
+[editor.soft-wrap]
+enable = true
+wrap-at-text-width = true
+
+[editor.statusline]
+left = [
+  "spinner",
+  "mode",
+  "file-name",
+  "file-modification-indicator",
+  "position",
+  "total-line-numbers"
+]
+right = [
+  "diagnostics", 
+  "selections", 
+  "file-encoding",
+  "version-control"
+]
+separator = "|"
+
+[editor.statusline.mode]
+insert = "I"
+normal = "N"
+select = "S"
+
+[editor.whitespace.characters]
+tab = "→"
+tabpad = "·"
+
+[editor.whitespace.render]
+tab = "all"
+
+[keys.normal.space]
+c = ":buffer-close"
