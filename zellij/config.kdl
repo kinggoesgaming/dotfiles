@@ -5,6 +5,29 @@ keybinds {
 		}
 		unbind "Ctrl g"
 	}
+
+	renamepane {
+		bind "Esc" {
+		    UndoRenamePane;
+			SwitchToMode "Pane"
+		}
+	    bind "Ctrl n" {
+			SwitchToMode "Normal"
+		}
+		unbind "Ctrl p"
+	}
+
+	renametab {
+		bind "Esc" {
+			UndoRenameTab;
+			SwitchToMode "Tab"
+		}
+		bind "Ctrl n" {
+			SwitchToMode "Normal"
+		}
+		unbind "Ctrl t"
+	}
+	
 }
 
 theme "catppuccin-macchiato"
