@@ -1,0 +1,8 @@
+keybinds {
+	locked {
+		bind "Ctrl n" {
+			SwitchToMode "Normal"
+		}
+		unbind "Ctrl g"
+	}
+}
