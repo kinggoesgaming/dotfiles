@@ -27,7 +27,7 @@ keybinds {
 		}
 		unbind "Ctrl t"
 	}
-	
+
 }
 
 theme "catppuccin-macchiato"
