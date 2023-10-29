@@ -28,6 +28,43 @@ keybinds {
 		unbind "Ctrl t"
 	}
 
+	resize {
+		bind "Ctrl n" {
+			SwitchToMode "Normal"
+		}
+
+		bind "h" {
+			Resize "Increase Left"
+		}
+
+		bind "j" {
+			Resize "Increase Down"
+		}
+
+		bind "k" {
+			Resize "Increase Up"
+		}
+
+		bind "l" {
+			Resize "Increase Right"
+		}
+
+		bind "H" {
+			Resize "Decrease Left"
+		}
+
+		bind "J" {
+			Resize "Decrease Down"
+		}
+
+		bind "K" {
+			Resize "Decrease Up"
+		}
+
+		bind "L" {
+			Resize "Decrease Right"
+		}
+	}
 }
 
 theme "catppuccin-macchiato"
